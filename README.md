@@ -2,28 +2,28 @@
 ## 🛡️ About us 
 PiiShield is an open source library for privacy-sensitive applications and is designed to assist machine learning researchers, developers, and business owners in building privacy-conscious applications. PiiShield provides guidance, modules, and rules to detect and redact Personally Identifiable Information (PII) in compliance with various data protection laws, including GDPR, CCPA, and HIPAA.
 
-## Get in touch :coffee:
+## :coffee: Get in touch 
 - 🧐 Check out our latest research in the field [PiiSheild](https://www.piishield.org/).
 - 💬 DM us on [Twitter](https://https://twitter.com/yi_ding).
 
 
 ## 🔖 Features 
 ### PII Detection
-PiiShield offers a comprehensive set of algorithms and rules to identify sensitive information within data, including names, email addresses, phone numbers, addresses, and more. This enables you to quickly and accurately identify PII within your application's datasets.
+- PiiShield offers a comprehensive set of algorithms and rules to identify sensitive information within data, including names, email addresses, phone numbers, addresses, and more. This enables you to quickly and accurately identify PII within your application's datasets.
 
 ### Redaction Modules
-Our library provides modular redaction functions to automatically mask or remove PII from text, images, and other data formats. These modules are customizable, allowing you to tailor the redaction process to meet the specific requirements of your application.
+- Our library provides modular redaction functions to automatically mask or remove PII from text, images, and other data formats. These modules are customizable, allowing you to tailor the redaction process to meet the specific requirements of your application.
 
 ### Compliance Guidance
-PiiShield simplifies compliance with data protection laws such as GDPR, CCPA, and HIPAA. It offers a comprehensive set of guidelines, best practices, and pre-configured rules to ensure your application handles PII appropriately, minimizing the risk of data breaches and legal complications.
+- PiiShield simplifies compliance with data protection laws such as GDPR, CCPA, and HIPAA. It offers a comprehensive set of guidelines, best practices, and pre-configured rules to ensure your application handles PII appropriately, minimizing the risk of data breaches and legal complications.
 
 ### Ease of Integration
-PiiShield is designed to seamlessly integrate into your existing machine learning workflows and applications. With straightforward APIs and clear documentation, you can easily incorporate PII detection and redaction capabilities into your projects without major code modifications.
+- PiiShield is designed to seamlessly integrate into your existing machine learning workflows and applications. With straightforward APIs and clear documentation, you can easily incorporate PII detection and redaction capabilities into your projects without major code modifications.
 
 ### Constant Updates
-Our dedicated team of experts continually monitors and updates PiiShield to ensure it stays up-to-date with the latest privacy regulations and emerging best practices. You can rely on the library to evolve alongside the evolving landscape of data privacy.
+- Our dedicated team of experts continually monitors and updates PiiShield to ensure it stays up-to-date with the latest privacy regulations and emerging best practices. You can rely on the library to evolve alongside the evolving landscape of data privacy.
 
-## 👉🏻👉🏻 Getting Started
+## 👉🏻 Getting Started
 To get started with PiiShield, follow these simple steps:
 
 - Install the library by including the PiiShield package in your project dependencies. Refer to the installation guide in the documentation for detailed instructions.
