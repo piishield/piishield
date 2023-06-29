@@ -1,0 +1,1 @@
+whisper-timestamped @ git+https://github.com/linto-ai/whisper-timestamped
