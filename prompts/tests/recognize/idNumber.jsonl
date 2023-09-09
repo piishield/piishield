@@ -1,0 +1,3 @@
+{"input": "My passport number is D34789710.", "output": "{\"idNumbers\": [{\"text\": \"D34789710\", \"type\": \"passport\"}]}"}
+{"input": "My drivers license is W12374987.", "output": "{\"idNumbers\": [{\"text\": \"W12374987\", \"type\": \"driversLicense\"}]}"}
+{"input": "Call 1-800-347-5324", "output": "{\"idNumbers\": []}"}

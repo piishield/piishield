@@ -1,0 +1,3 @@
+{"input": "I was born in Osaka.", "output": "{\"birthPlace\": [\"Osaka\"]}"}
+{"input": "I was delivered in a hospital in California.", "output": "{\"birthPlace\": [\"California\"]}"}
+{"input": "I visited Texas.", "output": "{\"birthPlace\": []}"}

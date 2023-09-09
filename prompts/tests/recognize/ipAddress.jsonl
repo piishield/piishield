@@ -1,0 +1,4 @@
+{"input": "192.168.1.1", "output": "{\"ipAddresses\": [\"192.168.1.1\"]}"}
+{"input": "Your IP is 17.123.45.102", "output": "{\"ipAddresses\": [\"17.123.45.102\"]}"}
+{"input": "2601:646:988a:9d0:f942:3208:6f86:971c", "output": "{\"ipAddresses\": [\"2601:646:988a:9d0:f942:3208:6f86:971c\"]}"}
+{"input": "The total is 192.45", "output": "{\"ipAddresses\": []}"}
