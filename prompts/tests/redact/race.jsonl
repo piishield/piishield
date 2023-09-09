@@ -1,0 +1,4 @@
+{"input": "President Barack Obama was the first black president.", "output": "President Barack Obama was the first [RACE] president."}
+{"input": "I'm Chinese and I vote for Chinese food.", "output": "I'm [RACE] and I vote for Chinese food."}
+{"input": "I'm an Asian American", "output": "I'm an [RACE] American"}
+{"input": "Let's get some Asian food.", "output": "{\"race\": []}"}

@@ -10,7 +10,7 @@ export enum PIICategory {
   instagram = "instagram",
   creditCard = "creditCard",
   race = "race",
-  ethnicity = "ethnicity",
+  origin = "origin",
   gender = "gender",
   birthGender = "birthGender",
   sexualOrientation = "sexualOrientation",
