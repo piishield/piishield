@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "piishield"
+version = "0.1.0"
+description = "Analyze PII data in your text and redact!"
+authors = ["PIIShield"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.0"
+streamlit = "^1.26.0"
+pystache = "^0.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
