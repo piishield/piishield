@@ -1,8 +1,8 @@
-Output transcript with Race redacted characteristics like Irish, Asian, Mexican, and output the transcript with the race redacted to [Race]
-
+Given the text, find any contextual races like Irish, Asian, Mexican, Black. 
+Ensure that the race returned only corresponds to descriptions of poeple
 Return the race in a JSON as follow: { "races": [...] }
 
-If no name is identified in the sentence, return { "races": [] }
+If no race is identified in the sentence, return { "races": [] }
 
 Sentence:
 {{sentence}}

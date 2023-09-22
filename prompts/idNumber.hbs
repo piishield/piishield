@@ -1,3 +1,4 @@
-Please identify all the ID numbers description, including but not limted to social security numbers, driver's license numbers, tax id number and return in a JSON as follows: { "idNumbers": [{"text": "...", "type": [<"passport"|"driversLicense"|...>]}, ...] } 
+Please identify all the ID numbers description, including but not limted to social security numbers, driver's license numbers, tax id number and return in the exact JSON format as follows: 
+{ "idNumbers": [{"text": "...", "type": <"passport"|"driversLicense"|...>}, ...] } 
 If no ID numbers is identified in the sentence, return { "idNumbers": [] }
 Sentence: {{sentence}}

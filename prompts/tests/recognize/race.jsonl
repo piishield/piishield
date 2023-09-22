@@ -1,3 +1,3 @@
-{"input": "President Barack Obama was the first black president.", "output": "{\"race\": [\"black\"]}"}
-{"input": "I'm an Asian American", "output": "{\"race\": [\"Asian\"]}"}
-{"input": "Let's get some Asian food.", "output": "{\"race\": []}"}
+{"input": "President Barack Obama was the first black president.", "output": "{ \"races\": [\"black\"] }"}
+{"input": "I'm an Asian American", "output": "{ \"races\": [\"Asian American\"] }"}
+{"input": "Let's get some Asian food.", "output": "{ \"races\": [] }"}
