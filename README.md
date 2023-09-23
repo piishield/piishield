@@ -26,17 +26,17 @@ PiiShield is an open source library for privacy-sensitive applications and is de
 ## 👉🏻 Getting Started
 To get started with PiiShield, follow these simple steps:
 
-- Install the library by including the PiiShield package in your project dependencies. Refer to the installation guide in the documentation for detailed instructions.
+### Python
+- In the python directory, run `poetry install && poetry shell`. 
+- To run the redaction module, use `streamlit run <>`
+- To run the evals, use `python eval.py`
 
-- Import the necessary modules and initialize the PiiShield within your application code.
+### Prompts
 
-- Utilize the provided PII detection algorithms and redaction modules to identify and mask or remove PII from your application's data.
+In the prompts folder, the following contributions owuld be helpful:
+-  Prompts using the name of the type of PII (i.e., Credit Card Number)
+-  You can also add evals in the tests folder. This will help test coverage on PII data (even if the prompts don't exist yet).
 
-- Customize the library's settings and rules according to your specific requirements, ensuring compliance with relevant data protection regulations.
-
-- Thoroughly test your application to validate the effectiveness of PiiShield's capabilities in detecting and redacting sensitive information.
-
-💡For more detailed instructions, refer to the comprehensive documentation and code examples available on our official website.💡
 
 ## 👨🏻‍💻👩🏻‍💻 Contributing
 We welcome contributions from the open source community to enhance and expand the capabilities of PiiShield. If you have ideas, bug fixes, or new features to propose, please refer to our contribution guidelines for instructions on how to submit your contributions.

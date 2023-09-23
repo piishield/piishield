@@ -54,7 +54,7 @@ def redact_text(input_text):
         for pii_val in values:
             print(pii_val)
             if pii_val in output_pii:
-                output_pii = output_pii.replace(pii_val, f'[{category}]')
+                output_pii = output_pii.replace(pii_val, f'[{category.upper()[:-1]}]')
     return output_pii
 
 if __name__ == "__main__":
