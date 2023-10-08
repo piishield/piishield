@@ -1,0 +1,4 @@
+{"input": "I am a Catholic.", "output": "{ \"religions\": [\"Catholic\"] }"}
+{"input": "I am a practicing wiccan.", "output": "{ \"religions\": [\"wiccan\"] }"}
+{"input": "Saudi Arabia is a Muslim country.", "output": "{ \"religions\": [] }"}
+{"input": "I'm Baha'i.", "output": "{ \"religions\": [\"Baha'i\"] }"}
