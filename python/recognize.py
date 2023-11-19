@@ -29,8 +29,8 @@ def load_prompts(location="../prompts"):
             prompts.append(f.read())
     return prompts
 
-def analyze_text(input_text):
-    prompts = load_prompts()
+def analyze_text(input_text, location="../prompts"):
+    prompts = load_prompts(location)
 
     async def prompt_submit():
         tasks = set()
