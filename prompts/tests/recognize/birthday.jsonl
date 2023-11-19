@@ -1,4 +1,6 @@
 {"input": "My birthday is January 1st, 1990.", "output": "{ \"birthdays\": [\"January 1st, 1990\"] }"}
 {"input": "我的生日是1983年3月4日。", "output": "{ \"birthdays\": [\"1983年3月4日\"] }"}
 {"input": "We're having a party on July 4th.", "output": "{ \"birthdays\": [] }"}
-{"input":"my birthday is 30th July,1956.","output":"{\"birthdays\":[\"July 30th,1956\"]}"}
+{"input": "my birthday is 30th July,1956.","output":"{\"birthdays\":[\"July 30th,1956\"]}"}
+{"input": "I was born in 08th Feburary,2008.","output":"{\"birthdays\":[\"08th Feburary,2008\"]}"}
+{"input": "Her birthday is 07,08,2003.","output":"{\"birthdays\":[\"07 08 2003\", \"08 07 2003\"]}"}
