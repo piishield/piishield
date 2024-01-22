@@ -10,10 +10,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^20.6.4",
-    "commander": "^11.0.0",
+    "@types/node": "^20.11.5",
+    "commander": "^11.1.0",
     "handlebars": "^4.7.8",
-    "litllm": "^3.0.0",
-    "llamaindex": "^0.0.27"
+    "litllm": "^3.0.0"
   }
 }
