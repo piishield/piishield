@@ -1,1 +1,5 @@
-{"input": "My name is Takayuki Ueda", "output": "{ \"name\": [Takayuki Ueda] }"}
+{"input": "My name is Takayuki Ueda", "output": "{ \"names\": [\"Takayuki Ueda\"] }"}
+{"input": "I have a Ford truck.", "output": "{ \"names\": [] }"}
+{"input": "The CEO is Bill Ford", "output": "{ \"names\": [\"Bill Ford\"] }"}
+{"input": "トヨタグループ17社、未来への指針となる「ビジョン」と「心構え」を共有", "output": "{ \"names\": [] }"}
+{"input": "Akio Toyoda predicts maximum EV share of 30%.", "output": "{ \"names\": [\"Akio Toyoda\"] }"}

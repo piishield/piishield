@@ -1,2 +1,3 @@
 {"input": "I am a straight male.", "output": "{ \"sexualOrientations\": [\"straight\"] }"}
 {"input": "I identify as gay.", "output": "{ \"sexualOrientations\": [\"gay\"] }"}
+{"input": "My best friend is bi.", "output": "{ \"sexualOrientations\": [\"bi\"] }"}
