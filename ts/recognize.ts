@@ -9,11 +9,21 @@ import { PIICategory } from "./category";
  *
  * @param input a text which may or may not contain PII
  * @param category category of PII to recognize
+ * @param customPrompt a custom prompt to use for the recognition (HBS format)
  * @returns the recognized fields in the text
  */
-export async function recognize(input: string, category: PIICategory) {
-  let filename = path.join(__dirname, `../prompts/${category}.hbs`);
-  const hbs = fs.readFileSync(filename, "utf-8");
+export async function recognize(
+  input: string,
+  category: PIICategory,
+  customPrompt?: string
+) {
+  let hbs;
+  if (customPrompt) {
+    hbs = customPrompt;
+  } else {
+    const filename = path.join(__dirname, `../prompts/${category}.hbs`);
+    hbs = fs.readFileSync(filename, "utf-8");
+  }
 
   const template = Handlebars.compile(hbs);
 
