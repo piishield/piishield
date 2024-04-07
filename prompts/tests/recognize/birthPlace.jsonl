@@ -1,3 +1,9 @@
 {"input": "I was born in Osaka.", "output": "{ \"birthPlaces\": [\"Osaka\"] }"}
 {"input": "I was delivered in a hospital in California.", "output": "{ \"birthPlaces\": [\"California\"] }"}
 {"input": "I visited Texas.", "output": "{ \"birthPlaces\": [] }"}
+{"input": "I was born in Tokyo.","output": "{ \"birthPlaces\": [\"Tokyo\"] }"}
+{"input": "Born in a coastal town in Brazil.","output": "{ \"birthPlaces\": [\"a coastal town in Brazil\"] }"}
+{"input": "My birthplace is Los Angeles.","output": "{ \"birthPlaces\": [\"Los Angeles\"] }"}
+{"input": "I first saw the light of day in a small hospital in Nairobi.","output": "{ \"birthPlaces\": [\"Nairobi\"] }"}
+{"input": "My mom gave birth to me in Marin County, California.","output": "{ \"birthPlaces\": [\"Shijiazhuang\"] }"}
+{"input": "My mom gave birth to me in a small hospital in Paris.","output": "{ \"birthPlaces\": [\"Paris\"] }" }
