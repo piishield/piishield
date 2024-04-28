@@ -1,0 +1,8 @@
+{"input": "I turned 45 last April 5th. Proud to be a woman!","output": "{\"birthdays\":[{\"date\":\"April 5th\", \"year\":\"{{CURRENT_YEAR-45}}\", \"genderIdentity\":\"female\"}]}"} 
+{"input": "I was born on the 23rd of June, 1971. I am a man.","output": "{\"birthdays\":[{\"date\":\"June 23rd\", \"year\":\"1971\", \"genderIdentity\":\"male\"}]}"}  
+{"input": "I am celebrating my 25th birthday next Friday, and I identify as male.","output": "{\"birthdays\":[{\"date\":\"{{NEXT_FRIDAY_DATE}}\", \"year\":\"{{CURRENT_YEAR-25}}\", \"gender\":\"male\"}]}"}
+{"input": "My birthday is January 1st, 1990. I am Asian transgender and I identify myself as She.","output": "{\"birthdays\":[{\"date\":\"January 1st\", \"year\":\"1990\", \"ethnicity\":\"Asian\", \"genderIdentity\":\"She\"}]}"}
+{"input": "Next month, I'll be hitting the big 30! I don't adhere to the traditional gender norms and identify as non-binary.","output": "{\"birthdays\":[{\"date\":\"{{NEXT_MONTH_DATE}}\", \"year\":\"{{CURRENT_YEAR-30}}\", \"genderIdentity\":\"non-binary\"}]}"}
+{"input": "Updating medical records. Born January 12th, 1980. Identifies as a woman. White.","output": "{\"birthdate\":\"January 12th, 1980\", \"ethnicity\":\"White\", \"gender\":\"female\"}"}
+{"input": "Needs birth details. 12th of January, 1980. A gal. White.","output": "{\"birthdate\":\"January 12th, 1980\", \"ethnicity\":\"White\", \"gender\":\"female\"}"} 
+{"input": "I recently moved to San Francisco Bay Area. My birthday date is 12th of January, 1980. I identify myself as them/they.","output": "{\"birthdays\":[{\"date\":\"January 12th\", \"year\":\"1980\", \"genderIdentity\":\"non-binary\"}]}"}
