@@ -37,7 +37,7 @@ export async function recognize(
     }
   );
 
-  const recognitions = JSON.parse(result.message.content);
+  const recognitions = JSON.parse(result.message.content as string);
 
   const ret: {
     field: string;
